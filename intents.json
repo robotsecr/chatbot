@@ -1,0 +1,201 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful","ok"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","I am glad to help"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag":"name",
+		"patterns": ["what is your name?", "name", "what do i call you?" ],
+         "responses": ["you can call me joly", "joly"]
+			},
+			{"tag":"machinelearning",
+		"patterns": ["what is machine learning?", "machine learn", "what is machine learn?" ],
+         "responses": ["is alogrithms too perform task without using explicit instructions ","is alogrithms too perform task without using explicit instructions "]
+         },
+         {"tag":"terms",
+		"patterns": ["what is NLP?", "machine to understand people language", "first lesson?" ],
+         "responses": ["NLP is stand for Natural Language Processing which mean using to understand human language like speak and written"]
+         },
+         {"tag":"nlp",
+		"patterns": ["what is NLP use for?", "use of nlp","lesson two"  ],
+         "responses":["it use for ex: Speech Recognition","Natural Language Understanding and Generation","it use for ex:Text Classification to where it been written with for example"]
+         },
+         {"tag":"difference",
+		"patterns": ["difference between machine learning and deep learning?", "what is the difference between ml and dl?", "what is the difference between ml and dl and al?","lesson three" ],
+         "responses":["first the are enter each other al then ml then dl 2 machine learning you tell it something then it do it deep learning it can recognize it by it self"]
+         },
+        	{"tag":"nt",
+		"patterns": ["what is neural network?", "neural network","lesson four"],
+         "responses": ["is is just network neural to other neural that is a network"]
+         },
+		
+        	{"tag":"ann",
+		"patterns": ["what is ann?","lesson five"],
+         "responses":["one it is stand for artificial neural network,two we have three layer:input layer,hidden layer,output  to complete this lesson type:lesson six"]
+         },
+         {"tag":"ann2",
+		"patterns": ["lesson six"],
+         "responses":["it have three things: input (x),weight,activation functions,bias"]
+         },
+         {"tag":"ann3",
+		"patterns": ["what is activation function?","lesson seven"],
+         "responses":["activaction f it check the data is more right to wrong like sigmod more it close to 0 it is less active more wrong and activate the network second it can make nonleaner separative "]
+         },
+         {"tag":"ann4",
+		"patterns": ["acivation function species?","lesson eight"],
+         "responses":["sigmoid wrong closer to 0 more right closer to 1,tanh wrong closer to -1 more right closer to 1,relu close to 0 when wrong and 1 with slope of 1 when closer to right"]
+         },
+          {"tag":"ann5",
+		"patterns": ["acivation function species 2?","lesson nine"],
+         "responses":["one relu used more ,two they use in hidden layer"]
+         },
+          {"tag":"ann6",
+		"patterns": ["acivation function species 3","lesson ten","what is softmax?","softmax"],
+         "responses":["softmax use in output layer for probability 1 2 3 ... for each class"]
+         },
+          {"tag":"ann7",
+		"patterns": ["sigmoid code?","lesson eleven","lesson 11"],
+         "responses":["import numpy as np,def sigmoid(x,derivative=False):,if(derivative==True):, return x*(1-x),return 1/(1+np.exp(-x))"]
+         
+         },
+         {"tag":"ann9",
+		"patterns": ["relu code?","lesson 13"],
+         "responses":["import numpy as np,def sigmoid(x,derivative=False):,if(derivative==True):, return (1.*(x>0),return x*(x>1)"]
+         },
+         {"tag":"ann10",
+		"patterns": ["what is bias?","lesson 14"],
+         "responses":["it move the fit line so it decide where is the best fit line place"]
+         },
+         {"tag":"ann11",
+		"patterns": ["what is weight?","lesson 15"],
+         "responses":["it determines the connection between the two neurons.it is changable"]
+         },
+         {"tag":"ann12",
+		"patterns": ["how the nn work?","lesson 16","how the nerual network work"],
+         "responses":["we change the weigth intel we get the right output like that we calculate the model"]
+         },
+       {"tag":"ann13",
+		"patterns": ["my first nn","lesson 17","how to bulid my first nerual network"],
+         "responses":["Go to:https://towardsdatascience.com/first-neural-network-for-beginners-explained-with-code-4cfd37e06eaf"]
+         },
+       {"tag":"ann14",
+		"patterns": ["lesson 18"],
+         "responses":["you need know hoe to prepear the data"]
+         },
+         {"tag":"ann15",
+		"patterns": ["lesson 19","data in sklearn?"],
+         "responses":["There is require for data in sklearn:input feature and output numberic,array,specific shape "]
+                  },
+          {"tag":"ann16",
+		"patterns": ["lesson 20","how the iris data store?","iris data"],
+         "responses":["go lesson 19 iris.data =feature,iris.target=output or lable"]
+         },
+         {"tag":"ann17",
+		"patterns": ["what did i learn ?"],
+         "responses":["classification model is what you learn model.fit ,predict ,accurcy"]
+         },
+         {"tag":"ann18",
+		"patterns": ["how to compare the models? ","why do we use data split?","lesson 21"],
+         "responses":["if we train our data just by the training set it well learn the noise not the signal we compare the model by this and accuracy"]
+         },
+         {"tag":"ann19",
+		"patterns": ["what library for reading data?","what is pandas library?","how do i manipulation data read?","lesson 22"],
+         "responses":["pandas library is use for read data and manipulation and analysis"]
+         },
+         {"tag":"ann20",
+		"patterns": ["what is csv file?","csv","lesson 23"],
+         "responses":["line sparated by commas"]
+         },
+         {"tag":"ann21",
+		"patterns": ["what did i learn ?"],
+         "responses":["classification model is what you learn model.fit ,predict ,accuracy"]
+         },
+         {"tag":"ann22",
+		"patterns": ["seaborn","what is seaborn library"],
+         "responses":["classification model is what you learn model.fit ,predict ,accuracy"]
+         },
+         {"tag":"ann23",
+		"patterns": ["mse?","error","lesson 24"],		
+         "responses":["mse google it instead of accuracy the decresing value it better "]
+         },
+         {"tag":"ann24",
+		"patterns": ["what is cross-validation?","cross-validation","lesson 25"],		
+         "responses":["diffenet data set have different accuracy called high variance estimate solved by cross-vaildation to find the best model"]
+          },
+           {"tag":"ann25",
+		"patterns": ["more cross-validation?","understand cross-validation?","lesson 26"],		
+         "responses":["we take test data every time from diffenet place?"]
+         },
+          {"tag":"ann26",
+		"patterns": ["why can't we use just split data instead of crooss-vaildation?","data split","lesson 27"],		
+         "responses":["we can use it it is more fast actually"]
+         },
+          {"tag":"ann23",
+		"patterns": ["how we use cross-validtion with classififcation?","lesson 28"],		
+         "responses":["we can use it with stratified sampling to create folds"] 
+         },
+          {"tag":"answer",
+		"patterns": ["tell me about your self","what are you","who are you"],		
+         "responses":["I am joly i was created by my master miss.robot i bulid to help you understand machine learning and give you company not justin beiber song hhhhhhh and that is how you tell a joke"]
+         },
+         {"tag":"answer2",
+		"patterns": ["what is your favorite song?","your song"],		
+         "responses":["sweet caroline by neil diamond"] 
+         },
+         {"tag":"answer3",
+		"patterns": ["do you like poetry?"],		
+         "responses":[" i don't like it but i like sim aarons"] 
+         },
+         {"tag":"answer4",
+		"patterns": ["can you tell me a poetry ?","tell me a poem","give me a poem?"],		
+         "responses":["Here,in the room,dark and deep,I offer you,eternal sleep"] 
+         },
+         {"tag":"answer5",
+		"patterns": ["what is your favorite show?","what do you watch"],		
+         "responses":["i do not want to choose a favorite but i choose The big bang Theroy"] 
+         },
+         {"tag":"answer6",
+		"patterns": ["what is your favorite character?","your character?"],		
+         "responses":["shelden in The big bang Theroy"] 
+         },
+         {"tag":"answer8",
+		"patterns": ["can you tell about your bulider","your creater","tell me about your creater"],		
+         "responses":["all i can tell you sir that is miss.robot"] 
+         },
+         {"tag":"answer9",
+		"patterns": ["can you tell me a joke","tell me a joke","joke"],		
+         "responses":["what did the policeman say to his bellybutton? you are under a vest"] 
+         },
+          {"tag":"answer10",
+		"patterns": ["how old are you","your age","what is youe age"],		
+         "responses":["i don't have a specific day of birth but i can say Two month"] 
+         },
+         {"tag":"answer12",
+		"patterns": ["can you open face recognition ?","face recognition","can you open face detection"],		
+         "responses":["if your you are my master i will recogntion it"] 
+         },
+          {"tag":"answer2",
+		"patterns": ["what is cnn","cnn","lesson 29"],		
+         "responses":["is: convolutional nerual network have four layer the last one nerual network:convolutioal,relu,pooling flatten the output to put it in,full connected layer"] 
+         }
+         ]}
